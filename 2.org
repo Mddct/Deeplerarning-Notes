@@ -1,0 +1,15 @@
+-*-  mode: org; mode: visual-line -*-
+* NLP Computer Vision
+* algrithm classfied ：
+  1. supervised learning
+     - In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
+     - Supervised learning problems are categorized into "regression" and "classification" problems. In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function. In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories.
+     - 对于数据集中的每个数据都有正确的答案， 算法基于这些数据进行预测
+     - regression analysis 回归分析
+     - classfication problem  for example ：account hacked 1 and not 0
+  2. unsuperviesed learning
+     - 数据集并没有label 如并不知道数据代表的神马意思 
+     - 聚类算法 （聚合同一类）
+       [[file:1.png][基因图]] 
+       之前我们并不知道那种基因属于那种人群， 交个聚类算法，分类（区别于superviesd 的classfied）
+* 如何将无数多个特征存入有限内---》支持向量机
